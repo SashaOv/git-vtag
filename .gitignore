@@ -2,3 +2,5 @@
 .venv/
 .env
 gitvtag.egg-info/
+*.pyc
+*.pyo
