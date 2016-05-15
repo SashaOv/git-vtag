@@ -20,7 +20,7 @@ setup(
   author_email= 'sasha@ovsankin.com',
   license= 'Apache License, Version 2.0',
   packages= find_packages(),
-  package_data={ '': ['README.md', 'LICENSE'] },
+  package_data={ '': ['README.rst', 'LICENSE'] },
   install_requires= [ ],
   entry_points={
     'console_scripts': [
