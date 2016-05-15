@@ -19,7 +19,7 @@ To install the released version:
 
 ::
 
-      > pip install git-vtag
+      > pip install gitvtag
 
 Running
 -------
@@ -33,11 +33,11 @@ The command has built-in help:
 Development version
 -------------------
 
-To install the code in development mode:
+The code is hosted on Github: `https://github.com/SashaOv/git-vtag`_. To install the code in development mode:
 
 ::
 
-      > git clone <git-repository-address>
+      > git clone https://github.com/SashaOv/git-vtag.git
       > cd git-vtag
       > python setup.py develop
 
@@ -53,6 +53,6 @@ to set up the .env file, for example:
 Apache License
 --------------
 
-Copyright (C) 2016 **Sasha Ovsankin**
-
-Licensed under the **Apache License, Version 2.0** . See the file 'LICENSE' for details.
+Copyright (C) 2016 Sasha Ovsankin.
+Licensed under the `Apache License v2.0 http://www.apache.org/licenses/LICENSE-2.0`_.
+See the file `'LICENSE' https://github.com/SashaOv/git-vtag/LICENSE`_ for details.
