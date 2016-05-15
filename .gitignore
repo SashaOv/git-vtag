@@ -1,4 +1,6 @@
 .idea/
+build/
+dist/
 .venv/
 .env
 gitvtag.egg-info/

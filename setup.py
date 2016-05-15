@@ -12,7 +12,7 @@ setup(
   name='gitvtag',
   version= '0.1',
 
-  description='LifeDreams Deployment Tooling',
+  description='A git subcommand for simple and straightforward version tagging',
   long_description=read_long_description(),
   url='https://github.com/SashaOv/git-vtag',
 
