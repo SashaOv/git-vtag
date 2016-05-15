@@ -50,9 +50,9 @@ to set up the .env file, for example:
     echo activate $env_dir
     source $env_dir/bin/activate`
 
-Apache License
---------------
+License
+-------
 
 Copyright (C) 2016 Sasha Ovsankin.
-Licensed under the `Apache License <v2.0 http://www.apache.org/licenses/LICENSE-2.0>`_.
-See the file `'LICENSE' <https://github.com/SashaOv/git-vtag/LICENSE>`_ for details.
+Licensed under the `Apache License v2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
+See the file `'LICENSE' <https://github.com/SashaOv/git-vtag/blob/master/LICENSE>`_ for details.
