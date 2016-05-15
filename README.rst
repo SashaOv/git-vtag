@@ -33,7 +33,7 @@ The command has built-in help:
 Development version
 -------------------
 
-The code is hosted on Github: `https://github.com/SashaOv/git-vtag`_. To install the code in development mode:
+The code is hosted on Github: `<https://github.com/SashaOv/git-vtag>`_. To install the code in development mode:
 
 ::
 
@@ -54,5 +54,5 @@ Apache License
 --------------
 
 Copyright (C) 2016 Sasha Ovsankin.
-Licensed under the `Apache License v2.0 http://www.apache.org/licenses/LICENSE-2.0`_.
-See the file `'LICENSE' https://github.com/SashaOv/git-vtag/LICENSE`_ for details.
+Licensed under the `Apache License <v2.0 http://www.apache.org/licenses/LICENSE-2.0>`_.
+See the file `'LICENSE' <https://github.com/SashaOv/git-vtag/LICENSE>`_ for details.
