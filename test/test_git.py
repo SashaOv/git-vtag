@@ -1,6 +1,6 @@
 import unittest
 
-from deploy2.Git import Git
+from gitvtag.Git import Git
 
 
 class TestTags(unittest.TestCase):
