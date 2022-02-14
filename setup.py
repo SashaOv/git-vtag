@@ -12,7 +12,7 @@ def read_long_description():
 
 setup(
   name='gitvtag',
-  version= '0.2',
+  version= '0.3',
 
   description='A git subcommand for simple and straightforward version tagging',
   long_description=read_long_description(),
