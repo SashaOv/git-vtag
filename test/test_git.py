@@ -18,6 +18,11 @@ class TestTags(unittest.TestCase):
   def test_last_tag(self):
     pass  # TODO
 
+  def test_bytes(self):
+    report= b'v0.2-8-gb661887-\n'
+    split_report= report.decode('utf-8').split('-')
+    self.assertEqual(split_report, ['v0.2', '8', 'gb661887', '\n'])
+
 
 if __name__ == "__main__":
   unittest.main()

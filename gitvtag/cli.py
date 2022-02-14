@@ -1,7 +1,9 @@
 from __future__ import print_function
 
 import optparse, subprocess, sys
-import Git
+
+from gitvtag.Git import Git
+
 
 class SyntaxError(Exception):
   pass
@@ -30,7 +32,7 @@ class CLI:
                       action="store_false", dest="allow_duplicate",
                       help="uNique. do not allow duplicate version tags")
     self._parser= parser
-    self._git= Git.Git()
+    self._git= Git()
 
   def run(self):
     try:

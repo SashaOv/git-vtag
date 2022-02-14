@@ -47,7 +47,7 @@ class Git:
   class TagStatus:
     def __init__(self, report):
       if report:
-        split= report.split("-")
+        split= report.decode('utf-8').split("-")
         self.last_tag= split[0]
         self.untagged_commits= int(split[1])
         self.has_untagged_commits= self.untagged_commits > 0
